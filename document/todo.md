@@ -1,9 +1,35 @@
 # IDEA - road to run
 
-## gyors befejezes
+## minimal stepps to finalize
+  - [ ] games positions
+    - [ ] Q : Open Door, Run away from water
+    - [ ] Y : Welcome / Run Away from Water
+    - [ ] A : Found perfect bodies
+    - [ ] B : Pair shadow to solid
+    - [ ] C : Pair solid to shadow
+    - [ ] D : Cube Uv
+    - [ ] X : just crossroad - no game
+    - [ ] E : Pair shadow to solid for time
+    - [ ] F : Pair solid to shadow for time
+    - [ ] G : Cube uv for time
+    - [ ] H : Fallen Pairs
+    - [ ] I : Three Gems
+    - [ ] J : Roman Numbers
+    - [ ] K : Link Path
+    - [ ] L : Quest of Items, Walk to door 
+  - [x] game for caves
+  - [x] PerfectShapeGame
+  - [ ] games versions
+  - [ ] monologs
+  - [ ] redraw items
+  - [ ] rework multiRounds game framework
+  - [x] create branch to keep old stuff : oldest
+
+## rapid way to finish
 
 Tenyleg ossze kellene szednem, hogy mi kellene az igazan gyors befejezeshez,
 
+  - [ ] signs on map for water escape
   - [ ] Middle game information
   - [ ] figure out all game type cave bye cave
   - [ ] fix setTimeOut of OpenDoor game
@@ -66,19 +92,20 @@ Tenyleg ossze kellene szednem, hogy mi kellene az igazan gyors befejezeshez,
   - [x] 3D - find regular solids projection in matrix
   - [x] 3D - find solid for 2 projection
   - [x] 2D - select matrix wich hold solid UV map ( cube, tetrahedron )
+  - [x] 3D - 3 Gem
   - [ ] 3D - turn tile of uv map ... near
   - [ ] 3D - show uv and select correct fallen solid, time quest
-  - [ ] 3D - select projection from point for showed solid 2.9
+  - [ ] 3D - select projection from point for showed solid 2.9 - no way!
       <https://threejs.org/examples/#webgl_lights_hemisphere> - work on my mobil
       <https://threejs.org/examples/#webgl_lights_physical>
       <https://threejs.org/examples/#webgl_lights_spotlights>
       <https://threejs.org/examples/#webgl_shadowmap_pointlight>
-  - [ ] roman number order game :: 2.10
+  - [x] roman number order game :: 2.10
       <http://www.ngkszki.hu/~trembe/primek/prim01.htm>
       <http://www.betonopus.hu/notesz/mertekegyseg/romaiszam.htm>
-  - [ ] quest of items :: 2.11
+  - [..] quest of items :: 2.11
   - [ ] link of routes :: 2.12
-  - [ ] rain of caves :: 3  
+  - [..] rain of caves :: 3  
 
 ## unique interaction / animation  
   - [x] level selector
