@@ -1,7 +1,7 @@
 # IDEA - road to run
 
 ## minimal stepps to finalize
-  - [ ] games positions
+  - [x] games positions
     - [ ] Q : Open Door, Run away from water
     - [ ] Y : Welcome / Run Away from Water
     - [ ] A : Found perfect bodies
