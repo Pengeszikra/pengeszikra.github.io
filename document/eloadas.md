@@ -53,19 +53,75 @@ A teremtés első napja ami szétválasztotta a világosságot a sötétségtől
   notepad ++ 
   sublime  text
   vs-code
-  
+
+  # assembler -> flash -> javascript.
+
+  Vajon mi lesz a következő lépés ?
 
   > online fejlesztő környezetek
 
+  <//codepen.io>
+  <//stackblitz.com>
+  <>
+
 # prototípusok
 
-# assembler -> flash -> javascript.
+  - tervezzünk vagy csak úgy durr bele ?
 
-Vajon mi lesz a következő lépés ?
+# társasjátékok - számítógépes játékok
+
+  - szerepjátékok
+  - milyen játékkal váltsuk meg a világot ?
+
+# gamification - játék programok cégeknek
+
+# játékok és a multimédiás applikációk
+
+# játékok az oktatásban
 
 # kihívások:
+  codewars.com
 
-  codewars
+# hogyan kezdjünk el programozni - gyakorlat
+
+three match game 
+
+# IDEA - Platoon barlangja geometriai feladatokkal tűzdelve
+
+  Gergő
+
+# A megkerülhetetlen Javascript
+
+  javascript != html
+
+  mi mindent lehet a JS - ben csinálni 
+    - a shadereknél már áttértunk egy másik programnyelre,
+
+  library-k előnye
+
+  Érdemes-e frameworköket használni ?
+
+  React
+
+  deklaratív oldalhajtások:
+
+    json
+    regexp
+    
+
+# funkcionális programozás
+
+  objektum - orientált programozás
+
+# declaraív  / imperatív programozás
+
+# közösségi kódolás és repostorik / github.com - gitbash - linux /
 
 
-  
+
+
+
+
+
+
+
