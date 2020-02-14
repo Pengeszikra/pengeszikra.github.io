@@ -90,7 +90,7 @@ body, html {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
+  height: 60%;
   background: #EEE;
   z-index: 200;
 }

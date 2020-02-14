@@ -69872,7 +69872,7 @@ var global = arguments[3];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.filter = exports.clickSource = exports.middleLog = exports.mousePosition = exports.distancedMove = exports.easeOut = exports.distance = void 0;
+exports.filter = exports.clickSource = exports.middleLog = exports.mousePosition = exports.distancedMove = exports.debug = exports.easeOut = exports.distance = void 0;
 
 var _callbagBasics = require("callbag-basics");
 
@@ -69915,6 +69915,11 @@ var easeOut = function easeOut(p) {
 };
 
 exports.easeOut = easeOut;
+var debug = (0, _callbagBasics.map)(function (p) {
+  console.log(p);
+  return p;
+});
+exports.debug = debug;
 
 var distancedMove = function distancedMove() {
   var move = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
@@ -69957,7 +69962,10 @@ var middleLog = (0, _callbagBasics.map)(function (data) {
 exports.middleLog = middleLog;
 
 var clickSource = function clickSource(camera, objects) {
-  return (0, _callbagBasics.pipe)((0, _callbagFromEvent.default)(document, 'click'), (0, _callbagBasics.map)(mousePosition), (0, _callbagBasics.map)(intersects(camera, objects)), filter(function (object) {
+  return (0, _callbagBasics.pipe)((0, _callbagBasics.merge)((0, _callbagFromEvent.default)(document, 'click'), (0, _callbagFromEvent.default)(document, 'touchend')), // debug,
+  (0, _callbagBasics.map)(function (event) {
+    return event.changedTouches && event.changedTouches[0] ? event.changedTouches[0] : event;
+  }), (0, _callbagBasics.map)(mousePosition), (0, _callbagBasics.map)(intersects(camera, objects)), filter(function (object) {
     return object;
   }));
 }; // callbag-filter minimal style
@@ -71421,7 +71429,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60594" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4316" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
