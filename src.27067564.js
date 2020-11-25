@@ -1124,4 +1124,4 @@ function r(){return module.exports=r=Object.assign||function(r){for(var t=1;t<ar
 },{"@babel/runtime/helpers/slicedToArray":"HETk","react":"n8MK","./LandingPage":"SP6F"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=require("react-dom");require("./style.scss");var t=u(require("./Frame"));function u(e){return e&&e.__esModule?e:{default:e}}(0,r.render)(e.default.createElement(t.default,null),document.getElementById("app"));
 },{"react":"n8MK","react-dom":"NKHc","./style.scss":"zbzq","./Frame":"Aj4z"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.426c89c6.js.map
+//# sourceMappingURL=/src.27067564.js.map
